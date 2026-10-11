@@ -2,6 +2,8 @@
 
 # osu! Rank → Hours Played Estimator (Indonesia Leaderboard Data Sample)
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1KFZHCowkCPVTMx7N0X1pZiDrklplxhGV?usp=sharing)
+
 A Google Colab notebook that estimates **how many hours a player has likely spent playing osu!** (standard mode) from their **global rank**. It scrapes the osu! API v2 performance leaderboard, fits several regression models of hours vs. rank, and compares them with cross-validation.
 
 The data is focused on the **Indonesian (ID) leaderboard**, optionally supplemented with the global top 50 pages for better accuracy at very high ranks.
